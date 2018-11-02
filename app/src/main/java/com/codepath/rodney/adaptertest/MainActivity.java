@@ -18,8 +18,11 @@ public class MainActivity extends AppCompatActivity {
         //Create the adapter to convert the array to views
         UsersAdapter adapter = new UsersAdapter(this,arrayOfUsers);
         //Add Item to the adapter
-        User newUser = new User("Rodney", "Cayes");
+        User newUser = new User("Rodney ", "Cayes");
         adapter.add(newUser);
+        User newUser2 = new User("Catherine ","Camp-Perrin");
+        adapter.add(newUser2);
+
 
 
         //Attach the adapter to the listview

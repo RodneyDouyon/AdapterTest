@@ -7,20 +7,20 @@
         android:id="@+id/tvName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Name"
+        android:text="Name  "
         android:textSize="22sp"
         android:textStyle="bold"
         />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="From"
+        android:text="From  "
         android:textSize="22sp"/>
     <TextView
         android:id="@+id/tvHome"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hometown"
+        android:text="Hometown  "
         android:textSize="22sp"
         android:textStyle="bold"/>
 
